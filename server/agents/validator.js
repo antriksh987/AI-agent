@@ -6,7 +6,7 @@
 const Anthropic = require("@anthropic-ai/sdk");
 
 const CLAUDE_SONNET_MODEL =
-  process.env.CLAUDE_SONNET_MODEL || "claude-sonnet-4-5";
+  process.env.CLAUDE_SONNET_MODEL || "claude-4-6-free";
 
 /**
  * Validate a startup idea through 5 checks.

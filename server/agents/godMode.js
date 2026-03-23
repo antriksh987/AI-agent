@@ -6,7 +6,7 @@
 const Anthropic = require("@anthropic-ai/sdk");
 
 const CLAUDE_OPUS_MODEL =
-  process.env.CLAUDE_OPUS_MODEL || "claude-opus-4-5";
+  process.env.CLAUDE_OPUS_MODEL || "claude-4-6-free";
 
 /**
  * Generate a comprehensive opportunity brief for a validated idea.
