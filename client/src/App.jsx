@@ -169,8 +169,8 @@ export default function App() {
                   onChange={(e) => setModelOverride(e.target.value)}
                   placeholder={
                     mode === "scout-lite"
-                      ? "e.g. qwen2.5:7b"
-                      : "e.g. claude-sonnet-4-5"
+                      ? "e.g. qwen3:4b"
+                      : "e.g. claude-4-6-free"
                   }
                   className="bg-scout-surface border border-scout-border rounded-lg px-3 py-2 text-scout-text placeholder-scout-muted/50 focus:outline-none focus:border-scout-accent/70 transition-colors text-xs font-mono"
                 />

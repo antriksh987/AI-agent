@@ -37,7 +37,7 @@ Scout is an AI-powered opportunity research engine that discovers, validates, an
 ### Install Ollama model
 
 ```bash
-ollama pull qwen2.5:3b
+ollama pull qwen3:4b
 ```
 
 ## Setup
@@ -83,7 +83,7 @@ Discover 3–5 startup opportunities using Ollama/Qwen.
 
 **Body:**
 ```json
-{ "query": "find opportunities in AI for SMB India", "model": "qwen2.5:3b" }
+{ "query": "find opportunities in AI for SMB India", "model": "qwen3:4b" }
 ```
 
 **Response:**
@@ -168,7 +168,7 @@ You can override the model per-request via the `model` field in the request body
 
 | Env variable | Default | Used by |
 |---|---|---|
-| `OLLAMA_MODEL` | `qwen2.5:3b` | Scout Lite |
-| `CLAUDE_SONNET_MODEL` | `claude-sonnet-4-5` | Validator |
-| `CLAUDE_OPUS_MODEL` | `claude-opus-4-5` | God Mode |
+| `OLLAMA_MODEL` | `qwen3:4b` | Scout Lite |
+| `CLAUDE_SONNET_MODEL` | `claude-4-6-free` | Validator |
+| `CLAUDE_OPUS_MODEL` | `claude-4-6-free` | God Mode |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | Scout Lite |

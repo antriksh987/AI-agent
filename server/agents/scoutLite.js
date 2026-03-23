@@ -6,7 +6,7 @@
 const axios = require("axios");
 
 const OLLAMA_BASE_URL = process.env.OLLAMA_BASE_URL || "http://localhost:11434";
-const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "qwen2.5:3b";
+const OLLAMA_MODEL = process.env.OLLAMA_MODEL || "qwen3:4b";
 
 /**
  * Discover 3–5 startup opportunities based on a user query.
